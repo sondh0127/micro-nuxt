@@ -1,0 +1,19 @@
+{
+	"name": "micro-nuxt",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "cross-env PORT=7100 nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate"
+	},
+	"dependencies": {
+		"core-js": "^3.15.1",
+		"nuxt": "^2.15.7",
+		"qiankun": "^2.4.3"
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.3"
+	}
+}
