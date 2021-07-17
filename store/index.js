@@ -74,11 +74,11 @@ async function getMenus() {
 	return {
 		code: 0,
 		payload: [
-			// {
-			// 	name: 'vue-app',
-			// 	activeRule: '/vue',
-			// 	entry: 'http://localhost:7101/',
-			// },
+			{
+				name: 'vite-vue-app',
+				activeRule: '/vite',
+				entry: 'http://localhost:7101/',
+			},
 			{
 				name: 'nuxt-app',
 				activeRule: '/nuxt',
